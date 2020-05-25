@@ -1,1 +1,6 @@
-json.array! @links, partial: "links/link", as: :link
+# frozen_string_literal: true
+
+json.array!(@links) do |link|
+  json.extract! link, :id, :title, :url
+  json.url link_url(link, format: :json)
+end

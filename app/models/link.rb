@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 class Link < ApplicationRecord
-  belong_to :user
+  belongs_to :user
 end
