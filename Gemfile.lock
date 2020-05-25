@@ -167,6 +167,8 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    record_tag_helper (1.0.1)
+      actionview (>= 5)
     regexp_parser (1.7.0)
     responders (3.0.0)
       actionpack (>= 5.0)
@@ -247,10 +249,11 @@ DEPENDENCIES
   pg
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)
+  record_tag_helper (~> 1.0, >= 1.0.1)
   sass-rails (>= 6)
   sassc-rails (>= 2.1.0)
   selenium-webdriver
-  simple_form (~> 5.0, >= 5.0.2)
+  simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

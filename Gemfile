@@ -19,8 +19,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-rails'
 gem 'jquery-rails'
+gem 'record_tag_helper', '~> 1.0', '>= 1.0.1'
 gem 'sassc-rails', '>= 2.1.0'
-gem 'simple_form', '~> 5.0', '>= 5.0.2'
+gem 'simple_form'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
