@@ -113,5 +113,5 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   # devise user authentication
-  config.action_mailer.default_url_options = { host: 'https://secret-sea-54629.herokuapp.com/', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'https://murmuring-badlands-48399.herokuapp.com/', port: 3000 }
 end
