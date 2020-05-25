@@ -20,6 +20,7 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'sassc-rails', '>= 2.1.0'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
