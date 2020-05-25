@@ -14,9 +14,10 @@ gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-rails'
 gem 'jquery-rails'
+gem 'sassc-rails', '>= 2.1.0'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 
